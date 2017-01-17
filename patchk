@@ -8,7 +8,8 @@ from tqdm import tqdm
 from sklearn.feature_extraction import image
 from sklearn.cluster import KMeans
 
-# create 
+# create image patches from image directory
+# clusters patches using Kmeans 
 
 # retrieves image filenames given a path, returns list of filenames
 def get_imgs(path):
