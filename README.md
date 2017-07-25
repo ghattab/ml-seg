@@ -9,8 +9,8 @@ The convolutionalization step transforms fully connected layers into convolution
 * `patchk.py` creates image patches and clusters them using the K-means method
 * `image-patches/` folder that encompasses the resulting patches
 * `buildDataset` creates a HDF5 dataset provided the list of patches 
-* Files with the `big` prefix handle the model's training
-* Files with the `surgery` suffix comprehend the 2-dimensional convolutions and convolutionalization
+* Files with the prefix `big` handle the model's training
+* Files with the suffix `surgery` comprehend the 2-dimensional convolutions and convolutionalization.
 
 ## License
 ```
