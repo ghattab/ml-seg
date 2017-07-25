@@ -1,6 +1,4 @@
-
 # coding: utf-8
-
 import tflearn
 from tflearn.layers.core import input_data
 from tflearn.layers.conv import conv_2d, max_pool_2d, upscore_layer
