@@ -73,3 +73,4 @@ for x in xs:
         c += 1
 plt.imsave('heatmaps/convidxmap.png', idxmap)
 print collections.Counter(idxmap.flatten())
+
