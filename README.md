@@ -12,6 +12,12 @@ The convolutionalization step transforms fully connected layers into convolution
 * Files with the prefix `big` handle the model's training
 * Files with the suffix `surgery` comprehend the 2-dimensional convolutions and convolutionalization.
 
+## Feature maps
+<p align="center"><img src="https://raw.githubusercontent.com/ghattab/ml-seg/master/.gitignore/ninheatmap7.png" alt="NIN" width="400" height="400" /> <img src="https://raw.githubusercontent.com/ghattab/ml-seg/master/.gitignore/convheatmap7.png" alt="FCN" width="400" height="400" />
+</p>
+Heat maps of the NIN and FCN of the last activation layer for the same test frame 115 of biomovie D1, respectively.
+
+
 ## License
 ```
 The MIT License (MIT)
